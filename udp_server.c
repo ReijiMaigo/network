@@ -16,6 +16,7 @@ int main()
     int sockfd;
     char buffer[MAXLINE];
     char *hello = "Hello from the server";
+    struct in_addr ir;
     struct sockaddr_in servaddr, cliaddr;
 
     //Creating socket file descriptor
